@@ -484,9 +484,10 @@ SÍMBOLOS E OPERADORES
 11- +, -, *, / e % - Operadores aritméticos (x - y)
 12- -- e ++ - Incrementa e decrementa (x++)
 13- # e ## - Pré processadores (#include)
-14 || - E (adiciona mais uma condição para dar verdadeiro)
+14 && e || - E e OU (adiciona mais uma condição para dar verdadeiro)
 15- (conversão) - Converte uma variável de um tipo para outro ((int) x)
 16- \ - Escapes de strings ("\nHello World")
+17- ? - Ternário (valor > dinheiro ? return -1 : return 1;)
 
 
 ESCAPES DE STRINGS
@@ -812,7 +813,3 @@ int main()
 
     return 0; // Fim do programa.
 }
-
-
-
-
