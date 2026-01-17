@@ -346,7 +346,7 @@ BIBLIOTECAS
 CONTROLE DE FLUXO
 1- IF - Executa a próxima operação entre chaves {} se a condição entre parenteses () for verdadeira
 
-if (x=4)
+if (x == 4)
 {
   printf("X igual a Quatro");
 }
@@ -420,7 +420,7 @@ do
 {
   printf("Deseja mais alguma coisa? [n para não]")
   opc = getch();
-)
+}
 while (opc != n)
 
 9- BREAK - Dentro de loops (for, while, switch) interrompe o laço
@@ -541,7 +541,7 @@ fp = soma;
 r = fp(2, 5);
 
 
-MANIPULAÇÃO DE  VOS 
+MANIPULAÇÃO DE ARQUIVOS 
 1- O programa pode criar, manipular, excluir e editar arquivos 
 2- Os arquivos podem ser de diferentes formatos, sendo eles binário, texto, csv, extensão, configuração e temporário
 3- Além de arquivos, o programa também pode mexer em imagens, vídeos e áudios
